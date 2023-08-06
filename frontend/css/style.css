@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  #userLogin,
+  #movieSearchForm,
+  #playlistForm,
+  #playlistItems {
+    margin-bottom: 20px;
+  }
+  
+  #movieList {
+    list-style: none;
+  }
+  
+  #movieList li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #userLogin input[type="email"],
+  #userLogin input[type="password"],
+  #userLogin button,
+  #userSignup input[type="email"],
+  #userSignup input[type="password"],
+  #userSignup button,
+  #movieSearchForm input[type="text"],
+  #movieSearchForm button,
+  #playlistForm input[type="text"],
+  #playlistForm input[type="radio"],
+  #playlistForm button,
+  #playlistItems {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+  }
+  
+  #playlistForm label {
+    margin-right: 10px;
+  }
+  
+  #userLogin button,
+  #userSignup button,
+  #movieSearchForm button,
+  #playlistForm button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #userLogin button:hover,
+  #userSignup button:hover,
+  #movieSearchForm button:hover,
+  #playlistForm button:hover {
+    background-color: #45a049;
+  }
+  
+  .page {
+    display: none;
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media screen and (max-width: 480px) {
+    #userLogin,
+    #userSignup,
+    #movieSearchForm,
+    #playlistForm {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  

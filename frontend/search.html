@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Movies</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Movie Search Form -->
+  <h1>Search Movies</h1>
+  <form id="movieSearchForm">
+    <input type="text" name="search" id="search" placeholder="Search for movies...">
+    <button type="submit">Search</button>
+  </form>
+
+  <!-- Movie List -->
+  <ul id="movieList"></ul>
+
+  <!-- Create Playlist Form -->
+  <h2>Create Playlist</h2>
+  <form id="playlistForm">
+    <input type="text" name="playlistName" id="playlistName" placeholder="Playlist name">
+    <label for="publicPlaylist">Public</label>
+    <input type="radio" name="publicPlaylist" id="publicPlaylist" value="true" checked>
+    <label for="privatePlaylist">Private</label>
+    <input type="radio" name="publicPlaylist" id="privatePlaylist" value="false">
+    <button type="submit">Create Playlist</button>
+  </form>
+</body>
+
+<script src="js/script.js"></script>
+
+</html>
